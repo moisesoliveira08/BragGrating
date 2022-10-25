@@ -1,0 +1,92 @@
+Ansys Lumerical 2022 R1.4 FDTD Solver Version 8.27.3044 (Linux 64bit)
+ expires (month/day/year): 5/2/2023
+using config file: Ansys Licensing set with ANSYSLMD_LICENSE_FILE
+license host: 1055@10.75.13.24
+current time: ter out 25 13:53:46 2022
+Running on host: fotonica01-System-Product-Name
+host available memory (GB): 27.395912
+All processes are communicating and ready to proceed to simulation...
+Running fsp file: /opt/lumerical/v221/bin/fdtd-engine-mpich2nem -t 1 -remote -shared-solve-license QU5TWVNDTF9DT05URVhUX0RBVEE9PEFOU1lTQ0xfQ09OVEVYVF9EQVRBPjxJRD5jMzRiN2I3NS1kNmFmLTQxYjMtOWNiZC0xMjJhODQ4MjdlYzY8L0lEPjxUWVBFPkFQUF9ERUZJTkVEPC9UWVBFPjxOQU1FPmx1bV9zdGFuZGFyZF9zb2x2ZV9zaGFyZTwvTkFNRT48SEFORExFUj4zNTQ0OUBmb3RvbmljYTAxLVN5c3RlbS1Qcm9kdWN0LU5hbWU8L0hBTkRMRVI+PC9BTlNZU0NMX0NPTlRFWFRfREFUQT4KQU5TWVNfQ09OVEVYVF9JRD1jMzRiN2I3NS1kNmFmLTQxYjMtOWNiZC0xMjJhODQ4MjdlYzYKQU5TWVNfQ09OVEVYVF9TRVJWRVI9MzU0NDlAZm90b25pY2EwMS1TeXN0ZW0tUHJvZHVjdC1OYW1lCg== /home/moises/Documentos/GitHub/BragGrating/Documentation/bragg.fsp
+Starting meshing
+Simulation size in gridpoints: 1 x 28 x 47
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.004895 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 1 x 28 x 47
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.004518 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 1 x 28 x 47
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.004335 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 1 x 28 x 47
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.004628 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 1 x 28 x 47
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.004462 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 1 x 28 x 47
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.004633 seconds of CPU time
+left is a duplicate key.
+bottom is a duplicate key.
+z1 is a duplicate key.
+z2 is a duplicate key.
+Nx is a duplicate key.
+Ny is a duplicate key.
+Nz is a duplicate key.
+number of processors is 6
+processors are distributed as: 6x1x1
+Running 3D Simulation
+Starting meshing
+Simulation size in gridpoints: 339 x 44 x 61
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.668884 seconds of CPU time
+133856 133856
+Starting meshing
+Simulation size in gridpoints: 339 x 44 x 61
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.649648 seconds of CPU time
+126704 126704
+Starting meshing
+Simulation size in gridpoints: 339 x 44 x 61
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.635582 seconds of CPU time
+75328 75328
+finished material properties
+Meshing Time: 1.35024 seconds, Init Electrical Material Time: 0.277749 seconds, Init Magnetic Material Time: 0.002572
+Using selected optimization level: 2
+Selecting 3d kernel for splitFieldDirection=0 and optLevel=2
+-----------------------------------------
+Beginning initialization of 3D Simulation
+Starting to add sources to simulation
+Adding 3D Mode source propagating in X
+Using frequency dependent profile
+Starting to add boundary conditions to simulation
+Adding 3D PML BC
+Adding 3D Parallel BC
+Adding 3D Anti-Symmetric BC
+Adding 3D PML BC
+Adding 3D PML BC
+Adding 3D PML BC
+Starting to add monitors to Simulation
+Adding analysis monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Finished initialization of 3D Simulation
+-----------------------------------------
+All processes are communicating and ready to proceed to simulation...
+Starting 438188 total iterations
+0.0109542% complete. Max time remaining: 4 hrs, 25 mins, 9 secs. Auto Shutoff: 1
