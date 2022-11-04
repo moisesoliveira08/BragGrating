@@ -1,0 +1,117 @@
+Ansys Lumerical 2022 R1.4 FDTD Solver Version 8.27.3044 (Linux 64bit)
+ expires (month/day/year): 5/2/2023
+using config file: Ansys Licensing set with ANSYSLMD_LICENSE_FILE
+license host: 1055@10.75.13.24
+current time: qui out 27 14:05:05 2022
+Running on host: fotonica01-System-Product-Name
+host available memory (GB): 27.250160
+All processes are communicating and ready to proceed to simulation...
+Running fsp file: /opt/lumerical/v221/bin/fdtd-engine-mpich2nem -t 1 -remote -shared-solve-license QU5TWVNDTF9DT05URVhUX0RBVEE9PEFOU1lTQ0xfQ09OVEVYVF9EQVRBPjxJRD5hZGE2ODgwYS1jZDdkLTRkZjctYWI0NC04ZjAxNjcyNzU0MzU8L0lEPjxUWVBFPkFQUF9ERUZJTkVEPC9UWVBFPjxOQU1FPmx1bV9zdGFuZGFyZF9zb2x2ZV9zaGFyZTwvTkFNRT48SEFORExFUj41MjE0NUBmb3RvbmljYTAxLVN5c3RlbS1Qcm9kdWN0LU5hbWU8L0hBTkRMRVI+PC9BTlNZU0NMX0NPTlRFWFRfREFUQT4KQU5TWVNfQ09OVEVYVF9JRD1hZGE2ODgwYS1jZDdkLTRkZjctYWI0NC04ZjAxNjcyNzU0MzUKQU5TWVNfQ09OVEVYVF9TRVJWRVI9NTIxNDVAZm90b25pY2EwMS1TeXN0ZW0tUHJvZHVjdC1OYW1lCg== /home/moises/Documentos/GitHub/BragGrating/simulation/bragg.fsp
+Starting meshing
+Simulation size in gridpoints: 1 x 28 x 43
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.004527 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 1 x 28 x 43
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.004399 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 1 x 28 x 43
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.004313 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 1 x 28 x 43
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.004529 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 1 x 28 x 43
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.004322 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 1 x 28 x 43
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.004211 seconds of CPU time
+left is a duplicate key.
+bottom is a duplicate key.
+z1 is a duplicate key.
+z2 is a duplicate key.
+Nx is a duplicate key.
+Ny is a duplicate key.
+Nz is a duplicate key.
+number of processors is 6
+processors are distributed as: 6x1x1
+Running 3D Simulation
+Starting meshing
+Simulation size in gridpoints: 370 x 44 x 57
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.520664 seconds of CPU time
+11952 11952
+Starting meshing
+Simulation size in gridpoints: 370 x 44 x 57
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.523552 seconds of CPU time
+11136 11136
+Starting meshing
+Simulation size in gridpoints: 370 x 44 x 57
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.646973 seconds of CPU time
+7168 7168
+finished material properties
+Meshing Time: 1.20605 seconds, Init Electrical Material Time: 0.118192 seconds, Init Magnetic Material Time: 0.002465
+Using selected optimization level: 2
+Selecting 3d kernel for splitFieldDirection=0 and optLevel=2
+-----------------------------------------
+Beginning initialization of 3D Simulation
+Starting to add sources to simulation
+Adding 3D Mode source propagating in X
+Using frequency dependent profile
+Starting to add boundary conditions to simulation
+Adding 3D PML BC
+Adding 3D Parallel BC
+Adding 3D Anti-Symmetric BC
+Adding 3D PML BC
+Adding 3D PML BC
+Adding 3D PML BC
+Starting to add monitors to Simulation
+Adding analysis monitor
+Adding 3D DFT monitor
+Finished initialization of 3D Simulation
+-----------------------------------------
+All processes are communicating and ready to proceed to simulation...
+Starting 438186 total iterations
+0.0109542% complete. Max time remaining: 3 hrs, 52 mins, 15 secs. Auto Shutoff: 1
+1.01874% complete. Max time remaining: 4 hrs, 34 secs. Auto Shutoff: 0.000136498
+2.02653% complete. Max time remaining: 3 hrs, 49 mins, 46 secs. Auto Shutoff: 2.96717e-05
+100% complete. Max time remaining: 0 mins, 0 secs. Auto Shutoff: 7.70533e-06
+Early termination of simulation, the autoshutoff criteria are satisfied.
+Completed 11863 iterations, or 5.414590e-13s of Simulation Time
+Process 0 starting to collect data
+    collecting monitor data
+    collecting source data
+Using frequency dependent profile
+Finished collecting data
+left is a duplicate key.
+bottom is a duplicate key.
+z1 is a duplicate key.
+z2 is a duplicate key.
+Nx is a duplicate key.
+Ny is a duplicate key.
+Nz is a duplicate key.
+Simulation completed successfully at: qui out 27 14:11:45 2022
+Overall wall time measurements in seconds: 400.62
+    time to mesh and initialize: 6.31243
+    time to run FDTD simulation: 377.193
+    time to checkpoint simulation: 1e-06
+    time to finalize data and save to files: 15.9411
+    miscellaneous time: 1.1732
+    FDTD solver speed on process 0: 29.185 Mnodes/s
+    total FDTD solver speed on 6 processes: 175.11 Mnodes/s
